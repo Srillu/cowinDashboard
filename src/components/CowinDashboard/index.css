@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 70vw;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #cbd5e1;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.cowin-name {
+  color: #2cc6c6;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.failure-image {
+  height: 300px;
+  width: 400px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
