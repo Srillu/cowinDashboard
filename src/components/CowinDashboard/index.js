@@ -26,7 +26,7 @@ class CowinDashboard extends Component {
   getFormattedDate = eachDay => ({
     dose1: eachDay.dose_1,
     dose2: eachDay.dose_2,
-    vaccineDates: eachDay.vaccine_dates,
+    vaccineDates: eachDay.vaccine_date,
   })
 
   getFormattedAge = eachAge => ({
